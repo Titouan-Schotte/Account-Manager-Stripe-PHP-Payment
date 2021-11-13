@@ -1,4 +1,4 @@
-# Account Manager with the Stripe API
+# Account Manager with the Stripe API 
 A paid account manager creation using the Stripe API.
 In 
 ## How it works ?
