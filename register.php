@@ -10,12 +10,12 @@
         <form action="payment.php" id="payment_form" method="POST">
             <!-- Profil Informations -->
             <input class="input" type="text" name="username" placeholder="Votre Pseudo" required><br><br>
-            <input class="input" type="email" name="email" placeholder="Votre Email" data-stripe="email"
+            <input class="input" type="email" name="email" placeholder="Your email" data-stripe="email"
                    required><br><br>
-            <input class="input" type="password" name="password" id="password" placeholder="Votre Mot de Passe"
+            <input class="input" type="password" name="password" id="password" placeholder="Your password"
                    required><br><br>
             <input class="input" type="password" name="password-confirm" id="password-confirm"
-                   placeholder="Retapez votre Mot de Passe" required><br><br><br><br>
+                   placeholder="Retype password" required><br><br><br><br>
             <!-- Paiement Informations -->
             <input class="input" type="text" placeholder="Code de carte bleue" data-stripe="number" required value="4242 4242 4242 4242"><br><br>
             <input class="input" type="text" placeholder="MM" data-stripe="exp_month" required value="12"><br><br>
