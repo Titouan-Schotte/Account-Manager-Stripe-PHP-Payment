@@ -1,10 +1,10 @@
 <?php
 $CREATE_ACCOUNT_ON_DB = true;
-$DB_NAME = "dremo-site";
+$DB_NAME = "your db name";
 $ACCOUNT = "root";
 $PASSWORD = "";
-$STRIPE = "pk_test_51J0msEFksrckFNsy2wYWTA4VGMg9xYiSgL3pzIJFoWmrQ5uCDNTD7YQtuSVPWIwlW8fCUFb48REskEOZdpYUULge00y2c88TeV";
-$STRIPE_SECRET = "sk_test_51J0msEFksrckFNsyjcfYez0VoVUpUDqDCd8d0je8AhvUDomU1ikbvq9YQJ8tXWo9V7bsTjRtDPet3dMYnu91M02e00ADpZTzHk";
+$STRIPE = "your stripe public api key";
+$STRIPE_SECRET = "your stripe secret api key";
 $AMOUNT = 1000; // = 10$
 
 return [$DB_NAME,$ACCOUNT,$PASSWORD,$STRIPE,$STRIPE_SECRET,$AMOUNT,$CREATE_ACCOUNT_ON_DB];
