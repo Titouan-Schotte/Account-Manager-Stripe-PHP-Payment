@@ -44,12 +44,12 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL) && !empty($username)) {
                     $sql = "INSERT INTO users (id,username,email,password) VALUES ('$customer->id','$username','$email','$password')";
                     $req = $db->prepare($sql);
                     $req->execute();
-                    $to_echo = "<p style='color:green;size: 50px'>PAIEMENT doned-> Account created</p><br><img src='https://cdn.dribbble.com/users/603228/screenshots/2322642/comp-1_1.gif'>";
+                    $to_echo = "<p style='color:green;size: 50px'>PAYMENT doned-> Account created</p><br><img src='https://cdn.dribbble.com/users/603228/screenshots/2322642/comp-1_1.gif'>";
                 } else {
                     $to_echo = "<p style='color:red;size: 50px'>account already exist</p>";
                 }
             } else {
-                $to_echo = "<p style='color:green;size: 50px'>PAIEMENT doned</p><br><img src='https://cdn.dribbble.com/users/603228/screenshots/2322642/comp-1_1.gif'>";
+                $to_echo = "<p style='color:green;size: 50px'>PAYMENT doned</p><br><img src='https://cdn.dribbble.com/users/603228/screenshots/2322642/comp-1_1.gif'>";
             }
         } else {
             $to_echo = "<p style='color:red;size: 50px'>ERROR PLEASE RETRY</p>";
